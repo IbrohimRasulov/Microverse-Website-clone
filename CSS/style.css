@@ -1,3 +1,5 @@
+/* Pre style */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +18,10 @@ p {
     margin: 10px 0;
 }
 
+/* navbar */
+
 #navbar {
-    background-color: #333;
+    background-color: rgb(35, 45, 63);
     overflow: auto;
 }
 
@@ -27,7 +31,7 @@ p {
 
 #navbar h1 {
     float: left;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 #navbar ul {
@@ -45,11 +49,37 @@ p {
 }
 
 #navbar ul li a:hover, #navbar ul li a.current {
-    background-color: #222;
+    background-color: rgb(8, 8, 51);
     color: #ff7e06;
 }
 
 .container {
     max-width: 1100px;
     margin: auto;
+}
+
+/* showcase */
+
+#showcase {
+    background-image: url('../Img/microverse.jpeg');
+    background-size: cover;
+    min-height: 300px;
+    background-position: center;
+    text-align: center;
+}
+
+#showcase h1 {
+    color: ivory;
+    font-size: 40px;
+    padding-top: 60px;
+    max-width: 70%;
+    margin: auto;
+}
+
+#showcase p {
+    font-size: 20px;
+    color: ivory;
+    max-width: 90%;
+    margin: auto;
+    padding-top: 40px;
 }
