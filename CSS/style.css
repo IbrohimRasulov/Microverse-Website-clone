@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none; 
+}
+
+p {
+    margin: 10px 0;
+}
+
+#navbar {
+    background-color: #333;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;   
+}
+
+#navbar h1 {
+    float: left;
+    padding: 20px;
+}
+
+#navbar ul {
+    float: right;
+    list-style-type: none;
+}
+
+#navbar ul li {
+    display: inline; /* float: left also works */
+}
+
+#navbar ul li a {
+    display: inline-block;
+    padding: 25px;
+}
+
+#navbar ul li a:hover, #navbar ul li a.current {
+    background-color: #222;
+    color: #ff7e06;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
