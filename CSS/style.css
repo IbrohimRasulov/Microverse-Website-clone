@@ -31,7 +31,8 @@ p {
 
 #navbar h1 {
     float: left;
-    padding-top: 20px;
+    padding-top: 15px;
+    font-size: 25px;
 }
 
 #navbar ul {
@@ -45,7 +46,8 @@ p {
 
 #navbar ul li a {
     display: inline-block;
-    padding: 25px;
+    padding: 20px 15px;
+    font-size: 17px;
 }
 
 #navbar ul li a:hover, #navbar ul li a.current {
