@@ -8,6 +8,7 @@
 
 html, body {
     font-family: sans-serif;
+    background-color: #f8faff;
 }
 
 a {
@@ -84,4 +85,48 @@ p {
     max-width: 90%;
     margin: auto;
     padding-top: 40px;
+}
+
+#home-info h1 {
+    color: #3e396b;
+    font-size: 40px;
+    margin-top: 50px;
+    padding: 60px;
+    text-align: center;
+    font-family: domine;
+    background-image: url('../Img/textBackground.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;
+}
+
+#home-info img {
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+.info-1, .info-2, .info-3 {
+    float: left;
+    width: 33%;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.info-1, .info-2, .info-3 h3 {
+    color: #3a366d;
+    text-align: center;   
+}
+
+#home-info p {
+    color: #636c98;
+    font-size: 18px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#paragraph-1 {
+    color: #636c98;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;   
 }
