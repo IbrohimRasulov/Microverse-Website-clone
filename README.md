@@ -8,11 +8,8 @@
 
 - CSS
 - HTML
-- Media queries
-- Bootstrap
 - Visual Studio Code
 - Live Server
-- Linters
 
 ## Live Demo
 
