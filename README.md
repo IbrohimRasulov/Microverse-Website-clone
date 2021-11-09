@@ -2,7 +2,7 @@
 
 # Microverse Website clone
 
->This project is just a try to build a clone of Microverse.org home page. Check the live demo to see if I managed.
+> This project is just a try to build a clone of [Microverse.org](https://www.microverse.org/) home page. Check the live demo to see if I managed.
 
 ## Built With
 
