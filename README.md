@@ -35,7 +35,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Inspired in this archived version of the website [Newsweek](https://web.archive.org/web/20210120125445/https://www.newsweek.com/)
 - [Microverse](https://www.microverse.org/) for international opportunities and their `README` [template](https://github.com/microverseinc/readme-template).
 
 ## 📝License
