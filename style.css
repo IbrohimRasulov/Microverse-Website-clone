@@ -62,7 +62,7 @@ p {
 
 /*! showcase */
 #showcase {
-    background-image: url('../Img/microverse.jpeg');
+    background-image: url('./assets/microverse.jpeg');
     background-size: cover;
     min-height: 300px;
     background-position: center;
