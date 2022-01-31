@@ -4,6 +4,8 @@
 
 > This project is just a try to build a clone of [Microverse.org](https://www.microverse.org/) home page. Check the live demo to see if I managed.
 
+![Screenshot]()
+
 ## Built With
 
 - CSS
@@ -39,5 +41,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝License
 
- 
+
 Copyright 2021 Ibrohim Rasulov
