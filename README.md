@@ -4,9 +4,7 @@
 
 > This project is just a try to build a clone of [Microverse.org](https://www.microverse.org/) home page. Check the live demo to see if I managed.
 
-![Screenshot](./assets/screenshot-1.png)
-![Screenshot](./assets/screenshot-2.png)
-![Screenshot](./assets/screenshot-3.png)
+![Screenshot](./assets/Screenshot.jpeg)
 
 ## Built With
 
