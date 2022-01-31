@@ -1,5 +1,4 @@
-/* Pre style */
-
+/*! Pre style */
 * {
     margin: 0;
     padding: 0;
@@ -12,22 +11,21 @@ html, body {
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 p {
     margin: 10px 0;
 }
 
-/* navbar */
-
+/*! navbar */
 #navbar {
     background-color: rgb(35, 45, 63);
     overflow: auto;
 }
 
 #navbar a {
-    color: #fff;   
+    color: #fff;
 }
 
 #navbar h1 {
@@ -42,7 +40,7 @@ p {
 }
 
 #navbar ul li {
-    display: inline; /* float: left also works */
+    display: inline; /*? float: left also works */
 }
 
 #navbar ul li a {
@@ -59,12 +57,12 @@ p {
 .container {
     max-width: 1100px;
     margin: auto;
+    padding-bottom: 50px;
 }
 
-/* showcase */
-
+/*! showcase */
 #showcase {
-    background-image: url('../Img/microverse.jpeg');
+    background-image: url('./assets/microverse.jpeg');
     background-size: cover;
     min-height: 300px;
     background-position: center;
@@ -87,17 +85,18 @@ p {
     padding-top: 40px;
 }
 
+/*! main section */
 #home-info h1 {
     color: #3e396b;
     font-size: 40px;
-    margin-top: 50px;
-    padding: 60px;
+    margin-top: 100px;
+    padding: 50px;
     text-align: center;
     font-family: domine;
-    background-image: url('../Img/textBackground.png');
+    background-image: url("https://assets-global.website-files.com/5dbb30f00775d4c32191a4df/5dc34c7d51595b4e9ca53745_path-5185.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 600px;
+    background-size: 800px;
 }
 
 #home-info img {
@@ -114,7 +113,11 @@ p {
 
 .info-1, .info-2, .info-3 h3 {
     color: #3a366d;
-    text-align: center;   
+    text-align: center;
+}
+
+#home-info {
+    padding-bottom: 400px;
 }
 
 #home-info p {
@@ -128,5 +131,52 @@ p {
     color: #636c98;
     font-size: 20px;
     text-align: center;
-    padding-bottom: 30px;   
+    padding-bottom: 30px;
+}
+
+/*! footer */
+footer {
+    background-color: #3e396b;
+    padding: 70px 0 350px 0;
+}
+
+footer li {
+    color: #d2fef8;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 38px;
+}
+
+footer a {
+    color: #d2fef8;
+}
+
+footer a:hover {
+    color: #555;
+}
+
+#motto {
+    width: 44%;
+    float: left;
+}
+
+#company, #resources {
+    width: 28%;
+    float: left;
+}
+
+#company h3, #resources h3 {
+    color: #f8faff;
+    font-size: 22px;
+    padding-bottom: 25px;
+}
+
+#motto p {
+    padding-top: 20px;
+    color: #f8faff;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60%;
 }
